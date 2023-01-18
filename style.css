@@ -1,0 +1,48 @@
+body {
+    background-color: #0586ff;
+    font: normal 20pt solid;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.822);
+    font: normal 16pt arial;
+    margin: auto;
+    padding: 1rem;
+    width: 500px;
+}
+
+.ano-nascimento {
+    padding-left: 1rem;
+}
+
+.sexo {
+    padding: 0 1rem 1rem 1rem;
+}
+
+div#texto {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+div#foto {
+    text-align: center;
+}
+
+img#imagem {
+    border-radius: 40%;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    color: #ffffff;
+    margin: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <div class="ano-nascimento">
+                <p>Ano de nascimento: <input type="number" name="nascimento" id="nascimento"></p>
+            </div>
+            <div class="sexo">
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mulher" checked>
+                    <label for="mulher">Feminino</label>
+                        
+                    <input type="radio" name="radsex" id="homem">
+                    <label for="homem">Masculino</label>
+                </p>
+            </div>
+            <input type="button" value="Verificar" id="botao" onclick="verificar()">
+            <div id="texto">
+            </div>
+            <div id="foto">
+                <img id="imagem" src="./img/pessoas.jpg" alt="foto de uma idosa">
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; @WenderG 2023
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
